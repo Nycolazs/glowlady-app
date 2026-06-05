@@ -28,6 +28,19 @@ flutter build apk --release
 
 O APK será gerado em: `build/app/outputs/flutter-apk/app-release.apk`
 
+## 🍎 iOS
+
+O projeto também foi preparado para iPhone/iPad com:
+
+- `ios/` criado com estrutura Flutter nativa
+- `AppIcon` gerado a partir de `assets/icon.png`
+- nome exibido ajustado para `Glow Lady Store`
+- bundle id configurado para `br.com.glowlady.app`
+
+### Observação importante
+
+Para gerar `.ipa` e publicar no TestFlight/App Store, é necessário um Mac com **Xcode instalado** e uma conta Apple Developer. Neste ambiente, a build iOS não pôde ser concluída porque o comando `xcodebuild` não está disponível.
+
 ### Instalar no dispositivo
 
 ```bash
